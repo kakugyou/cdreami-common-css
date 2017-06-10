@@ -45,7 +45,7 @@ module.exports = function (grunt) {
                     paths: ["less/"]
                 },
                 files: {
-                    "dist/style.css": "less/style.less",
+                    "dist/cdreami.common.css": "less/index.less",
                 }
             },
             prod: {
@@ -57,7 +57,7 @@ module.exports = function (grunt) {
                     paths: ["less/"]
                 },
                 files: {
-                    "dist/style.min.css": "less/style.less",
+                    "dist/cdreami.common.min.css": "less/index.less",
                 }
             }
         }
