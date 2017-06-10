@@ -1,0 +1,98 @@
+/* 文字对齐方式 */
+.tc{ text-align:center; }
+.tr{ text-align:right; }
+.tl{ text-align:left; }
+
+/* 层浮动定义 */
+.fl { float: left; }
+.fr { float: right; }
+.nf { float: none; }
+
+/* 文字方向 */
+.ltr{ direction:ltr; }
+.rtl{ direction:rtl; }
+
+/* 文字大小 */
+.f10{font-size:10px;}
+.f12{font-size:12px;}
+.f13{font-size:13px;}
+.f14{font-size:14px;}
+.f16{font-size:16px;}
+.f20{font-size:20px;}
+.f24{font-size:24px;}
+
+/* 行高 */
+.lh14{line-height:14px;}
+.lh16{line-height:16px;}
+.lh18{line-height:18px;}
+.lh20{line-height:20px;}
+.lh22{line-height:22px;}
+.lh24{line-height:24px;}
+
+/* margin & padding */
+.mgt{ margin-top:1em;  /* 基线高度 */}
+.mgt5 { margin-top: 5px;}
+.mgt10 { margin-top: 10px;}
+.mgt20 { margin-top: 20px;}
+
+.mgb{ margin-bottom:1em;}
+.mgb5 { margin-bottom: 5px;}
+.mgb10 { margin-bottom: 10px;}
+.mgb20 { margin-bottom: 20px;}
+
+
+/* 定位 */
+.rel{position:relative;}
+.abs{position:absolute;}
+
+.inline {
+  display: inline;
+}
+.invisible {
+  visibility: hidden;
+}
+*[hidden] {
+  display: none;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}
+
+br.left {
+  clear: left;
+}
+br.right {
+  clear: right;
+}
+br.all,
+.clear,
+.spacer {
+  clear: both;
+}
+
+.lnk {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.border-box {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* content */
+.read-more:after{
+	content:"\00A0\000BB"; /* Insert a space then right angled-quote*/
+}
+
+img{ vertical-align: middle; }
