@@ -1,0 +1,27 @@
+{
+  "name": "cdreami-common-css",
+  "version": "1.0.0",
+  "description": "Common css for website",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kakugyou/cdreami-common-css.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kakugyou/cdreami-common-css/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4",
+    "grunt-contrib-less": "~0.11",
+    "grunt-contrib-watch": "~0.6",
+    "load-grunt-tasks": "~0.2"
+  },
+  "dependencies": {
+  },
+  "homepage": "https://github.com/kakugyou/cdreami-common-css#readme"
+}
