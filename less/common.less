@@ -55,29 +55,28 @@
   display: none;
 }
 
-.clearfix {
-  zoom: 1;
-
-  &:before,:after {
-    content: "";
-    display: table;
-  }
-
-  &:after {
-    clear: both;
-  }
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
 }
-
-.clear,.spacer {
+.clearfix:after {
   clear: both;
 }
-
-.clear-left{
-  clear:left;
+.clearfix {
+  zoom: 1;
 }
 
-.clear-right{
-  clear:right;
+br.left {
+  clear: left;
+}
+br.right {
+  clear: right;
+}
+br.all,
+.clear,
+.spacer {
+  clear: both;
 }
 
 .lnk {
@@ -95,3 +94,5 @@
 .read-more:after{
 	content:"\00A0\000BB"; /* Insert a space then right angled-quote*/
 }
+
+img{ vertical-align: middle; }
